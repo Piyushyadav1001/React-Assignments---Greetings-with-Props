@@ -1,10 +1,12 @@
 import React from "react";
-import '../styles/App.css';
-import Welcome from './Welcome';
+import Welcome from './components/Welcome';
 
 const App = () => {
   return (
+    <div>
     <Welcome name="" />
+  <h2>Welcome to Newton School.</h2>
+  </div>
   )
 }
 
